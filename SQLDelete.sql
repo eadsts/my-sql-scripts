@@ -1,0 +1,4 @@
+select * from student
+delete from student
+	where id = 500
+select * from student
