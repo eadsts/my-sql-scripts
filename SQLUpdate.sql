@@ -8,3 +8,26 @@ update student set
 	select * from student
 	order by id desc
 	--	where firstname = 'Joe'
+
+update student set
+firstname = 'Kris' 
+where id = 1300
+
+select *
+from student
+
+update student set
+MajorId = 3
+where id = 160
+
+select *
+from student
+
+update student set
+Lastname = 'Kringle'
+where id = 1300
+
+
+select *
+from student
+order by id desc

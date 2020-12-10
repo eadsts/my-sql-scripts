@@ -48,3 +48,16 @@ values
 
 select * from Orders
 
+create table Products (
+	
+	Id int not null primary key identity (1,1),
+	Name varchar(30),
+	Price decimal(11,2)
+
+	);
+
+	insert Products (Name, Price)
+	values ('Echo', 115.00), ('iPad', 400.00), ('iPhone', 699.99)
+
+	select * from Products
+			
